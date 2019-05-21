@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* -------------------- back to top START ------------------------ */
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;
+}
+
+/* -------------------- back to top SLUT ------------------------ */
+
+
+/* -------------------- menubar START ------------------------ */
+
+
+.nav-main {
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    position: absolute;
+    left: 93vw;
+
+}
+
+.btn-toggle-nav {
+
+    margin: 10px;
+    padding: 25px;
+    background-image: url("img/menu.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.btn-toggle-nav:hover {
+    border: 6px;
+    border-radius: 26px;
+    padding: 26px;
+}
+
+
+
+.nav-sidebar {
+    z-index: 500;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 65px;
+    width: 0px;
+    height: 50vh;
+    background-color: rgba(255,255,255,0.9);
+    transition: all 0.9s ease-in-out;
+}
+
+.nav-sidebar ul {
+    padding-top: 100px;
+    visibility: hidden;
+
+
+}
+
+.nav-sidebar ul li {
+    line-height: 60px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.nav-sidebar ul li a {
+    display: block;
+    height: 60px;
+    padding: 0 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.5em;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
+}
+
+
+.nav-sidebar ul li a:hover {
+    background-color: #f1f1f1;
+
+}
+
+/* -------------------- menubar SLUT ------------------------ */
+
+
+
+
+.top-img {
+width: 100%;
+height: 50vh;
+background-image: url(img/oksbol-top.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right center;
+margin-bottom: 10vh;
+}
+
+.headline{
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  padding-top: 0px;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+
+}
+
+.grid-container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 150px;
+  padding-top: 50px;
+  grid-row-gap: 50px;
+  width: 83.33%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas:
+    'grid-1 grid-2'
+    'line-1 line-1'
+    'grid-3 grid-4'
+    'line-2 line-2'
+    'grid-5 grid-6';
+}
+
+.grid-1 {
+  grid-area: grid-1;
+}
+
+.grid-2 {
+  grid-area: grid-2;
+}
+
+.grid-3 {
+  grid-area: grid-3;
+}
+
+.grid-4 {
+  grid-area: grid-4;
+}
+
+.grid-5 {
+  grid-area: grid-5;
+    margin: auto; 
+}
+
+.grid-6 {
+  grid-area: grid-6;
+}
+
+.grid-textbox-right {
+  max-width: 80%;
+  padding-left: 30px;
+}
+
+.h2-grid {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 0px;
+}
+
+.h3-grid {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.h3-grid-italic {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.grid-img {
+  overflow: hidden;
+  object-fit: contain;
+  width: 100%;
+  background-color: red;
+}
+
+.line-0 {
+  grid-area: line-0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 2px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.line-1 {
+  grid-area: line-1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 2px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.line-2 {
+  grid-area: line-2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 2px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.grid-container {
+  margin: 0 0 0 20px;
+}
+
+
+/* -------------------- carousel ------------------------ */
+
+
+
+.scene {
+  margin-top: 40px 0;
+  position: relative;
+  width: 630px;
+  height: 450px;
+  perspective: 1000px;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translateZ(-182px);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.carousel__cell {
+  position: absolute;
+  width: 630px;
+  height: 450px;
+}
+.carousel__cell:nth-child(3n+1) { background: hsla(  100, 100%, 100%, 0); }
+.carousel__cell:nth-child(3n+2) { background: hsla( 100, 100%, 100%, 0); }
+.carousel__cell:nth-child(3n+3) { background: hsla( 100, 100%, 100%, 0); }
+
+
+.carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(182px); }
+.carousel__cell:nth-child(2) { transform: rotateY( 120deg) translateZ(182px); }
+.carousel__cell:nth-child(3) { transform: rotateY( 240deg) translateZ(182px); }
+
+/* -------------------- button ------------------------ */
+.prev .next{
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 48px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
