@@ -188,6 +188,17 @@ margin-bottom: 10vh;
   padding-left: 30px;
 }
 
+.visual-effect {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.visual-effect-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 .h2-grid {
   font-family: 'proxima-nova', sans-serif;
   font-weight: 700;
