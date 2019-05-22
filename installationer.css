@@ -8,6 +8,7 @@ body {
     height: 100%;
 	font-family: "proxima-nova",sans-serif;
 }
+
 /* -------------------- LP START ------------------------ */
 .video-container {
     position: relative;
@@ -69,7 +70,7 @@ video  {
   	display: flex;
 	border-radius: 8px;
 }
-/* -------------------- LP slut ------------------------ */
+
 /* -------------------- back to top START ------------------------ */
 
 #back-to-top-btn {
@@ -195,6 +196,16 @@ video  {
     margin-bottom: 10vh;
 }
 
+#top-img-kort {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/top-img-kort.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: 10vh;
+}
+
 .top-panel {
     height: 100vh;
 }
@@ -203,6 +214,7 @@ video  {
     font-family: 'proxima-nova', sans-serif;
     font-weight: 700;
     font-size: 65px;
+    padding-top: 0px;
     color: white;
     text-align: center;
     padding-top: 20vh;
@@ -306,6 +318,9 @@ video  {
   overflow: hidden;
   object-fit: contain;
   width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    width: 100%;
 
 }
 
