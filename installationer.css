@@ -242,16 +242,13 @@ body {
 }
 
 .grid-img {
-<<<<<<< HEAD
   overflow: hidden;
   object-fit: contain;
   width: 100%;
-=======
     overflow: hidden;
     object-fit: contain;
     width: 100%;
-    background-color: red;
->>>>>>> c9d90d395abb4f75e798dd6a91affbd759715fa0
+
 }
 
 .line-0 {
