@@ -130,6 +130,7 @@ body {
     background-size: cover;
     background-position: right center;
     margin-bottom: 10vh;
+    
 }
 
 
@@ -141,7 +142,6 @@ body {
     background-size: cover;
     background-position: right center;
     margin-bottom: 10vh;
-    margin: 530px auto;
     font-size: 18px;
     text-align: center;
 
@@ -155,6 +155,8 @@ body {
     background-size: cover;
     background-position: right center;
     margin-bottom: 10vh;
+        font-size: 18px;
+    text-align: center;
 }
 
 .top-panel {
