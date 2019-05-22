@@ -142,6 +142,16 @@ body {
     margin-bottom: 10vh;
 }
 
+#top-img-baenk {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/kartoffelskraellere.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: 10vh;
+}
+
 .top-panel {
     height: 100vh;
 }
