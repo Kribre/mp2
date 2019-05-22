@@ -26,12 +26,14 @@ video  {
 	width: 100px;
 }
 
-.overlay-txt {
-    margin: 530px auto;
-    font-size: 18px;
-    text-align: center;
-	
- }
+/* --------------------------------------- */
+
+.overlay-top-img {
+   background-color: #1b768b;
+   opacity: 0.5;
+
+}
+
 .newspaper {
 	column-count: 2;
 }
