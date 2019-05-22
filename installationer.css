@@ -124,11 +124,15 @@ html, body {
 .top-img {
 width: 100%;
 height: 50vh;
-background-image: url(img/oksbol-top.jpg);
+background-image: url(img/mor-og-barn.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: right center;
 margin-bottom: 10vh;
+}
+
+.top-panel {
+    height: 100vh;
 }
 
 .headline{
@@ -140,6 +144,10 @@ margin-bottom: 10vh;
   text-align: center;
   padding-top: 20vh;
 
+}
+
+.headline-panel {
+    padding-top: 50vh;
 }
 
 .grid-container {
@@ -186,6 +194,17 @@ margin-bottom: 10vh;
 .grid-textbox-right {
   max-width: 80%;
   padding-left: 30px;
+}
+
+.visual-effect {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.visual-effect-appear {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .h2-grid {
