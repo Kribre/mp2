@@ -30,7 +30,11 @@ video  {
 	width: 100px;
 }
 
-/* --------------------------------------- */
+.overlay-txt {
+    margin: 510px auto;
+    font-size: 18px;
+    text-align: center;
+ }
 
 .overlay-top-img {
    background-color: #1b768b;
@@ -197,12 +201,22 @@ video  {
     
 }
 
+.top-img-sojle {
+    width: 100%;
+    height: 50vh;
+    background-image: url("img/sojlepar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: 10vh;
+    
+}
 
 
 #top-img-kort {
     width: 100%;
     height: 50vh;
-    background-image: url(img/top-img-kort.png);
+    background-image: url(img/smaapiger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
@@ -221,6 +235,18 @@ video  {
     background-position: right center;
     margin-bottom: 10vh;
         font-size: 18px;
+    text-align: center;
+}
+
+#top-img-kvinde {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/gerta-bote-nadziratelnica-zhenskih-koncentracionnih-lagerej.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: 10vh;
+    font-size: 18px;
     text-align: center;
 }
 
