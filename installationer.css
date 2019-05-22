@@ -384,3 +384,76 @@ a:link, a:visited {
 a:hover, a:active {
  color: #c8c8c8;
 }
+/* -------------------- carousel ------------------------ */
+.scene {
+  margin-top: 40px 0;
+  position: relative;
+  width: 630px;
+  height: 450px;
+  perspective: 1000px;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translateZ(-182px);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.carousel__cell {
+  position: absolute;
+  width: 630px;
+  height: 450px;
+}
+.carousel__cell:nth-child(3n+1) { background: hsla(  100, 100%, 100%, 0); }
+.carousel__cell:nth-child(3n+2) { background: hsla( 100, 100%, 100%, 0); }
+.carousel__cell:nth-child(3n+3) { background: hsla( 100, 100%, 100%, 0); }
+
+
+.carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(182px); }
+.carousel__cell:nth-child(2) { transform: rotateY( 120deg) translateZ(182px); }
+.carousel__cell:nth-child(3) { transform: rotateY( 240deg) translateZ(182px); }
+
+/* -------------------- button ------------------------ */
+.prev {
+	
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: #1b768b;
+  font-weight: bold;
+  font-size: 38px;
+  left: 0;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-top: -280px;
+  padding: 16px;
+}
+
+.next{
+	cursor: pointer;
+	position: absolute;
+	width: auto;
+	color: #1b768b;
+	transition: 0.6s ease;
+	font-weight: bold;
+	font-size: 38px;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+	user-select: none;
+	margin-top: -280px;
+	padding: 16px;
+
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* -------------------- carousel SLUT ------------------------ */
