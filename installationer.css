@@ -362,6 +362,13 @@ video  {
   width: 100%;
 
 }
+.grid-img1 {
+  overflow: hidden;
+  object-fit: contain;
+  width: 630px;
+	min-height: 450px;
+
+}
 
 .line-0 {
     grid-area: line-0;
@@ -390,7 +397,7 @@ video  {
     width: 100%;
 }
 
-.grid-container > div {
+.grid-container {
     margin: 0 0 0 20px;
 }
 
@@ -450,11 +457,10 @@ a:hover, a:active {
   color: #1b768b;
   font-weight: bold;
   font-size: 38px;
-  left: 0;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  margin-top: -280px;
+  margin-top: 180px;
   padding: 16px;
 }
 
@@ -469,16 +475,15 @@ a:hover, a:active {
 	right: 0;
 	border-radius: 3px 0 0 3px;
 	user-select: none;
-	margin-top: -280px;
+	margin-top: 180px;
 	padding: 16px;
 
 }
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-.slideshow-container {
-  max-width: 1000px;
+.slideshow-container{ 
   position: relative;
-  margin: auto;
+ 
 }
 /* -------------------- carousel SLUT ------------------------ */
