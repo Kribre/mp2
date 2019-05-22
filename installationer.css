@@ -46,7 +46,6 @@ body {
     height: 60px;
     display: flex;
     flex-wrap: wrap;
-    color: red;
     position: absolute;
     left: 93vw;
 
@@ -243,10 +242,13 @@ body {
 }
 
 .grid-img {
+  overflow: hidden;
+  object-fit: contain;
+  width: 100%;
     overflow: hidden;
     object-fit: contain;
     width: 100%;
-    background-color: red;
+
 }
 
 .line-0 {
