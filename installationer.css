@@ -1,35 +1,38 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
-html, body {
-  height: 100%;
+html,
+body {
+    height: 100%;
 }
 
 /* -------------------- back to top START ------------------------ */
 
 #back-to-top-btn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 26px;
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
-  color: #333;
-  cursor: pointer;
-  outline: none;
-  border: 3px solid #333;
-  border-radius: 50%;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-property: background-color, color;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
 }
-#back-to-top-btn:hover, #back-to-top-btn:focus {
-  background-color: #333;
-  color: #fff;
+
+#back-to-top-btn:hover,
+#back-to-top-btn:focus {
+    background-color: #333;
+    color: #fff;
 }
 
 /* -------------------- back to top SLUT ------------------------ */
@@ -77,7 +80,7 @@ html, body {
     top: 65px;
     width: 0px;
     height: 50vh;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     transition: all 0.9s ease-in-out;
 }
 
@@ -122,27 +125,27 @@ html, body {
 
 
 .top-img {
-width: 100%;
-height: 50vh;
-background-image: url(img/mor-og-barn.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: right center;
-margin-bottom: 10vh;
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/mor-og-barn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: 10vh;
 }
 
 .top-panel {
     height: 100vh;
 }
 
-.headline{
-  font-family: 'proxima-nova', sans-serif;
-  font-weight: 700;
-  font-size: 65px;
-  padding-top: 0px;
-  color: white;
-  text-align: center;
-  padding-top: 20vh;
+.headline {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
 
 }
 
@@ -151,51 +154,52 @@ margin-bottom: 10vh;
 }
 
 .grid-container {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 150px;
-  padding-top: 50px;
-  grid-row-gap: 50px;
-  width: 83.33%;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-areas:
-    'grid-1 grid-2'
-    'line-1 line-1'
-    'grid-3 grid-4'
-    'line-2 line-2'
-    'grid-5 grid-6';
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 150px;
+    padding-top: 50px;
+    grid-row-gap: 50px;
+    width: 83.33%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas:
+        'grid-1 grid-2'
+        'line-1 line-1'
+        'grid-3 grid-4'
+        'line-2 line-2'
+        'grid-5 grid-6';
 }
 
 .grid-1 {
-  grid-area: grid-1;
+    grid-area: grid-1;
 }
 
 .grid-2 {
-  grid-area: grid-2;
+    grid-area: grid-2;
 }
 
 .grid-3 {
-  grid-area: grid-3;
+    grid-area: grid-3;
 }
 
 .grid-4 {
-  grid-area: grid-4;
+    grid-area: grid-4;
 }
 
 .grid-5 {
-  grid-area: grid-5;
+    grid-area: grid-5;
 }
 
 .grid-6 {
-  grid-area: grid-6;
+    grid-area: grid-6;
 }
 
 .grid-textbox-right {
-  max-width: 80%;
-  padding-left: 30px;
+    max-width: 80%;
+    padding-left: 30px;
 }
 
+/*css til tekst fade-in javascript*/
 .visual-effect {
     opacity: 0;
     transform: translateY(20px);
@@ -207,62 +211,87 @@ margin-bottom: 10vh;
     transform: translateY(0px);
 }
 
+/*css til harmonika javascript*/
+.accordion {
+    display: none;
+}
+
+.accordion.active {
+    display: block;
+}
+
 .h2-grid {
-  font-family: 'proxima-nova', sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  padding-top: 0px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 0px;
 }
 
 .h3-grid {
-  font-family: 'proxima-nova', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  padding-top: 15px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 15px;
 }
 
 .h3-grid-italic {
-  font-family: 'proxima-nova', sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 16px;
-  padding-top: 5px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 5px;
 }
 
 .grid-img {
-  overflow: hidden;
-  object-fit: contain;
-  width: 100%;
-  background-color: red;
+    overflow: hidden;
+    object-fit: contain;
+    width: 100%;
+    background-color: red;
 }
 
 .line-0 {
-  grid-area: line-0;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  height: 2px;
-  border-bottom: 1px solid black;
-  width: 100%;
+    grid-area: line-0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 2px;
+    border-bottom: 1px solid black;
+    width: 100%;
 }
 
 .line-1 {
-  grid-area: line-1;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  height: 2px;
-  border-bottom: 1px solid black;
-  width: 100%;
+    grid-area: line-1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 2px;
+    border-bottom: 1px solid black;
+    width: 100%;
 }
 
 .line-2 {
-  grid-area: line-2;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  height: 2px;
-  border-bottom: 1px solid black;
-  width: 100%;
+    grid-area: line-2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 2px;
+    border-bottom: 1px solid black;
+    width: 100%;
 }
 
-.grid-container>div {
-  margin: 0 0 0 20px;
+.grid-container > div {
+    margin: 0 0 0 20px;
+}
+
+a {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding-top: 0px;
+}
+
+a:link, a:visited {
+  color: black;
+  display: inline-block;
+}
+
+a:hover, a:active {
+ color: #c8c8c8;
 }
