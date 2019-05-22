@@ -480,7 +480,7 @@ a:hover, a:active {
 
 }
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #B86427;
 }
 .slideshow-container{ 
   position: relative;
