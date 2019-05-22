@@ -133,6 +133,16 @@ body {
     margin-bottom: 10vh;
 }
 
+#top-img-kort {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/top-img-kort.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: 10vh;
+}
+
 .top-panel {
     height: 100vh;
 }
