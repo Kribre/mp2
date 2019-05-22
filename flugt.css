@@ -8,6 +8,8 @@ body{
 .video-container {
     position: relative;
     background-color: #1b768b;
+	margin-top: -135px;
+
 }
 video  {
  	height: auto;
@@ -21,17 +23,19 @@ video  {
 	font-size: 40px;
 }
 .overlay-img {
-    margin-top: 130px;
+    margin-top: 220px;
 	width: 100px;
 }
 
 .overlay-txt {
-    margin: 410px auto;
+    margin: 530px auto;
     font-size: 18px;
     text-align: center;
+	
  }
 .newspaper {
 	column-count: 2;
+	 -moz-column-count: 2;
 }
 .overlay-citat {
     margin: 620px auto;
