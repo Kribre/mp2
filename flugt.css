@@ -9,7 +9,6 @@ body{
     position: relative;
     background-color: #1b768b;
 	margin-top: -135px;
-
 }
 video  {
  	height: auto;
@@ -35,19 +34,19 @@ video  {
  }
 .newspaper {
 	column-count: 2;
-	 -moz-column-count: 2;
 }
 .overlay-citat {
     margin: 620px auto;
     font-size: 22px;
     text-align: center;
+	
  }
 .overlayall{
-	height: auto;
     width: 100%;
+	margin-bottom: -100px;
     justify-content: center;
     position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+    top: 0; right: 0; left: 0;
     display: flex;
     color: white;
 }
