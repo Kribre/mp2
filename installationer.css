@@ -132,6 +132,7 @@ body {
     margin-bottom: 10vh;
 }
 
+
 #top-img-kort {
     width: 100%;
     height: 50vh;
@@ -140,6 +141,10 @@ body {
     background-size: cover;
     background-position: right center;
     margin-bottom: 10vh;
+    margin: 530px auto;
+    font-size: 18px;
+    text-align: center;
+
 }
 
 .top-panel {
