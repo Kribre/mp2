@@ -279,9 +279,7 @@ video  {
     grid-template-columns: repeat(2, auto);
     grid-template-areas:
         'grid-1 grid-2'
-        'line-1 line-1'
         'grid-3 grid-4'
-        'line-2 line-2'
         'grid-5 grid-6'
         'grid-7 grid-8';
 }
