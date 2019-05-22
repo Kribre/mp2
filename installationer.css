@@ -197,6 +197,16 @@ video  {
     
 }
 
+.top-img-sojle {
+    width: 100%;
+    height: 50vh;
+    background-image: url("img/sojlepar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    margin-bottom: 10vh;
+    
+}
 
 
 #top-img-kort {
