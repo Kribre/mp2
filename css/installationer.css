@@ -123,7 +123,7 @@ video  {
 
     margin: 10px;
     padding: 25px;
-    background-image: url("img/menu.svg");
+    background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
