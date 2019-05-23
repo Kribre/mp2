@@ -44,6 +44,7 @@ video  {
 
 .newspaper {
 	column-count: 2;
+	column-gap: 60px;
 }
 .overlay-citat {
     margin: 620px auto;
@@ -62,11 +63,11 @@ video  {
 }
 .btn{
 	margin: 700px auto 0px;
-    height: 30px;
-	width: 110px;
+    height: 35px;
+	width: 130px;
     background-color: #B86427;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     padding: 12px;
     text-align: center;
 	justify-content: center;
