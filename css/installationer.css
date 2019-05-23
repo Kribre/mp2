@@ -193,7 +193,7 @@ video  {
 .top-img {
     width: 100%;
     height: 50vh;
-    background-image: url(img/mor-og-barn.png);
+    background-image: url(../img/mor-og-barn.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
@@ -204,7 +204,7 @@ video  {
 .top-img-sojle {
     width: 100%;
     height: 50vh;
-    background-image: url("img/sojlepar.jpg");
+    background-image: url("../img/sojlepar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
@@ -216,7 +216,7 @@ video  {
 #top-img-kort {
     width: 100%;
     height: 50vh;
-    background-image: url(img/smaapiger.jpg);
+    background-image: url(../img/smaapiger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
@@ -229,7 +229,7 @@ video  {
 #top-img-baenk {
     width: 100%;
     height: 50vh;
-    background-image: url(img/kartoffelskraellere.png);
+    background-image: url(../img/kartoffelskraellere.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
@@ -241,7 +241,7 @@ video  {
 #top-img-kvinde {
     width: 100%;
     height: 50vh;
-    background-image: url(img/gerta-bote-nadziratelnica-zhenskih-koncentracionnih-lagerej.jpg);
+    background-image: url(../img/gerta-bote-nadziratelnica-zhenskih-koncentracionnih-lagerej.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
