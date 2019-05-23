@@ -13,8 +13,6 @@ function scrollAppear() {
 window.addEventListener('scroll', scrollAppear);
 
 
-
-
 //javascript til accordion åbner
 
 document.addEventListener('click', function (event) {
