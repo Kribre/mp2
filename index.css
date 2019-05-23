@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+	font-family: "proxima-nova",sans-serif;
+}
+/* ----------------- LP start  ---------------------- */
+.video-container {
+    position: relative;
+    background-color: #1b768b;
+	margin-top: -135px;
+}
+video  {
+ 	height: auto;
+  	vertical-align: middle;
+  	width: 100%;
+	opacity: 0.5;
+ 	
+}
+
+.overlay-head {
+    margin-top: 100px;
+	font-size: 40px;
+}
+.overlay-img {
+    margin-top: 220px;
+	width: 100px;
+}
+
+.overlay-txt {
+    margin: 510px auto;
+    font-size: 18px;
+    text-align: center;
+ }
+
+.overlay-top-img {
+   background-color: #1b768b;
+
+}
+
+.newspaper {
+	column-count: 2;
+	column-gap: 60px;
+}
+.overlay-citat {
+    margin: 620px auto;
+    font-size: 22px;
+    text-align: center;
+	
+ }
+.overlayall{
+    width: 100%;
+	margin-bottom: -100px;
+    justify-content: center;
+    position: absolute;
+    top: 0; right:  0; left: 0;
+    display: flex;
+    color: white;
+}
+.btn{
+	margin: 700px auto 0px;
+    height: 35px;
+	width: 130px;
+    background-color: #B86427;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    text-align: center;
+	justify-content: center;
+  	position: absolute;
+  	top: 0; right: 0; bottom: 0; left: 0;
+  	display: flex;
+	border-radius: 8px;
+}
+
+/* -------------------- back to top START ------------------------ */
+
