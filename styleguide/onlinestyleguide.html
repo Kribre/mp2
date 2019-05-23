@@ -17,7 +17,7 @@
     <div class="vertical-menu sidebar">
       <a href="#top">Top</a>
       <a href="#farver">farver</a>
-      <a href="#fotostil">fotostil</a>
+      <a href="#overlay">overlay</a>
       <a href="#ikoner">Ikoner</a>
       <a href="#typografi">Typografi</a>
     </div>
@@ -67,11 +67,11 @@
       
       </section>
 
-      <!-------------- FOTOSTIL SEKTION ------------->
+      <!-------------- OVERLAY SEKTION ------------->
 
-        <h2 class="headline" id="fotostil">Billede overlay</h2>
+        <h2 class="headline" id="overlay">Billede overlay</h2>
 
-      <section class="fotostil">
+      <section class="overlay">
           
         <div class="baggrund1">
           <img
@@ -124,6 +124,8 @@
               
 <code class="xmp3-ikoner">
     
+    https://use.fontawesome.com/releases/v5.8.2/css/all.css
+    
     &lt;div class="btn-toggle-nav" onclick="toggleNav()&lt;/div>
     <br><br>
     .btn-toggle-nav {<br>
@@ -141,7 +143,10 @@
     border: 6px;<br>
     border-radius: 26px;<br>
     padding: 26px;<br>
-}
+}<br><br>
+    
+    &lt;script src="../JS/main.js">&lt;/script>
+
           
 </code>
     
@@ -155,7 +160,11 @@
     color: white;
     font-size: 22px;
     border-radius: 8px;<br>
-    } </code>
+    } 
+            <br><br>
+    
+    &lt;script src="../JS/main.js">&lt;/script>
+</code>
             
             
           
@@ -165,41 +174,112 @@
           
           
           <div class="ikoner">
-         <div class="btn">Mere Info</div>
+                <img class="logo" src="img/logo.svg">       
         </div>
           
           
           <div class="ikoner">
-         <div class="btn">Mere Info</div>
+                <img class="arrow" src="img/arrow-down.png">       
         </div>
           
            
+            <code class="xmp3-ikoner">
+    
+    .btn {<br>
+    clear: both;<br>
+    height: 30px;<br>
+    width: 110px;<br>
+    background-color: #B86427;<br>
+    color: white;<br>
+    font-size: 22px;<br>
+    border-radius: 8px;<br>
+    } </code>
+              
+<code class="xmp3-ikoner">
+    
+    &lt;div class="overlayall overlay-img"><br>
+    &lt;img src="img/badge.png" alt="badge" height="266" width="903">&lt;/div>
+    <br><br>
+    .overlayall{<br>
+    width: 100%;<br>
+	margin-bottom: -100px;<br>
+    justify-content: center;<br>
+    position: absolute;<br>
+    top: 0; right:  0; left: 0;<br>
+    display: flex;<br>
+    color: white;<br>
+}<br><br>
+
+          
+</code>
+    
+<code class="xmp3-ikoner">
+        &lt;div class="arrow"&lt;/div>
+<br><br>
+    
+    .arrow {<br>
+    height: 35px;<br>
+    width: 40px;<br>
+    } </code>
       </section>
 
       <!-------- TYPOGRAFI SEKTION ------------------->
 
-      <section class="typotitle" id="typografi">
-        <h2>Typografi</h2>
-      </section>
-      <section class="typoundertitle">
-        <div>
-          <p>
-            For at skabe tydelig visuel kontrast mellem børne- og voksenområdet
-            i appen, er der udvalgt to forskellige skrifttyper.
-          </p>
-          <p>
-            Til voksenområdet bruges Roboto med høj læsbarhed til brødtekster på
-            skærm og en afrundet, imødekommende form.
-          </p>
-          <p>
-            Til børneområdet er der valgt Patrick Hand. Med sit legende,
-            håndskrevne udtryk taler den et visuelt sprog, som børn kulturelt
-            vil opfatte som rettet mod dem. Denne font bruges udelukkende i
-            versaler til overskrifter og til kortere tekster på faktaboksene.
-          </p>
-        </div>
-        <div>
-          <img src="img/backgrounds/typo-symbol.svg" alt="ræv billede" />
-        </div>
-      </section>
+        <h2 class="headline" id="typografi">Typografi</h2>
 
+      <section class="typografi" id="typografi">
+          
+          
+          
+          
+       <div class="typografi-headline">
+          <p>Overskrift</p>
+          </div>
+          
+            <xmp class="xmp3">&lt;p class="h2-grid">Et eksempel på en historie ved samtalebænken&lt;/p>
+          <br><br>
+          
+    .h2-grid {<br>
+    font-family: 'proxima-nova', sans-serif;<br>
+    font-weight: 700;<br>
+    font-size: 30px;<br>
+    padding-top: 0px;<br>
+    }
+          </xmp>        
+
+    
+          
+          
+       <div class="typografi-headline">
+          <p>Overskrift</p>
+          </div>
+          
+            <xmp class="xmp3">&lt;p class="h2-grid">Et eksempel på en historie ved samtalebænken&lt;/p>
+          <br><br>
+          
+    .h2-grid {<br>
+    font-family: 'proxima-nova', sans-serif;<br>
+    font-weight: 700;<br>
+    font-size: 30px;<br>
+    padding-top: 0px;<br>
+    }
+          </xmp>        
+
+
+          
+       <div class="typografi-headline">
+          <p>Overskrift</p>
+          </div>
+          
+            <xmp class="xmp3">&lt;p class="h2-grid">Et eksempel på en historie ved samtalebænken&lt;/p>
+          <br><br>
+          
+    .h2-grid {<br>
+    font-family: 'proxima-nova', sans-serif;<br>
+    font-weight: 700;<br>
+    font-size: 30px;<br>
+    padding-top: 0px;<br>
+    }
+          </xmp>        
+
+      </section>
