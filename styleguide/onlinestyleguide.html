@@ -1,285 +1,284 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="onlinestyleguide.css">
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700"
-      rel="stylesheet"
-    >
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-      
-  <link rel="stylesheet" href="https://use.typekit.net/rkc1quj.css"> 
+
+    <link rel="stylesheet" href="https://use.typekit.net/rkc1quj.css">
     <title>Style Guide | Flygtningemuseet</title>
-      
-  </head>
-  <body>
+
+</head>
+
+<body>
     <div class="vertical-menu sidebar">
-      <a href="#top">Top</a>
-      <a href="#farver">farver</a>
-      <a href="#overlay">overlay</a>
-      <a href="#ikoner">Ikoner</a>
-      <a href="#typografi">Typografi</a>
+        <a href="#top">Top</a>
+        <a href="#farver">farver</a>
+        <a href="#overlay">overlay</a>
+        <a href="#ikoner">Ikoner</a>
+        <a href="#typografi">Typografi</a>
     </div>
     <main class="main">
-        
-      <!--------------- HJEM SEKTION -------------->
 
-      <section class="hjem" id="top">
-        <div class="hjemtitle">
-          <h1>
-            Style Guide
-          </h1>
-        </div>
-      </section>
+        <!--------------- HJEM SEKTION -------------->
 
-      <!--------------- FARVER SEKTION -------------->
+        <section class="hjem" id="top">
+            <div class="hjemtitle">
+                <h1>
+                    Style Guide
+                </h1>
+            </div>
+        </section>
+
+        <!--------------- FARVER SEKTION -------------->
 
         <h2 class="headline">Farver</h2>
 
-      <!--------------- FARVE SWATCHES --------->
+        <!--------------- FARVE SWATCHES --------->
 
-      <section class="farver" id="farver">
-          
-        <div class="box">
-          <div class="colorswatch" id="orange"></div>
-          <p class="farver-txt">Orange<br>#B86427</p>
-          <p></p>
-        </div>
-            
-        <div class="box">
-          <div class="colorswatch" id="graa"></div>
-          <p class="farver-txt-sort">Grå<br>#f6f6f6</p>
-          <p></p>
-        </div>
-            
-        <div class="box">
-          <div class="colorswatch" id="blue"></div>
-          <p class="farver-txt">Blå<br>#1b768b</p>
-          <p></p>
-        </div>
-            
-        <div class="box">
-          <div class="colorswatch" id="green"></div>
-          <p class="farver-txt">Grøn<br>#3c9073</p>
-          <p></p>
-        </div>
-      
-      </section>
+        <section class="farver" id="farver">
 
-      <!-------------- OVERLAY SEKTION ------------->
+            <div class="box">
+                <div class="colorswatch" id="orange"></div>
+                <p class="farver-txt">Orange<br>#B86427</p>
+                <p></p>
+            </div>
+
+            <div class="box">
+                <div class="colorswatch" id="graa"></div>
+                <p class="farver-txt-sort">Grå<br>#f6f6f6</p>
+                <p></p>
+            </div>
+
+            <div class="box">
+                <div class="colorswatch" id="blue"></div>
+                <p class="farver-txt">Blå<br>#1b768b</p>
+                <p></p>
+            </div>
+
+            <div class="box">
+                <div class="colorswatch" id="green"></div>
+                <p class="farver-txt">Grøn<br>#3c9073</p>
+                <p></p>
+            </div>
+
+        </section>
+
+        <!-------------- OVERLAY SEKTION ------------->
 
         <h2 class="headline" id="overlay">Billede overlay</h2>
 
-      <section class="overlay">
-          
-        <div class="baggrund1">
-          <img
-            src="img/mor-og-barn1.jpg"
-            alt="Kvinde med barn i flygtningelejer">
-        </div>
-            <xmp class="xmp3">.overlay {background-color: #1b768b; opacity: 0.5;}</xmp>        
+        <section class="overlay">
 
-      </section>
+            <div class="baggrund1">
+                <img src="img/mor-og-barn1.jpg" alt="Kvinde med barn i flygtningelejer">
+            </div>
+            <xmp class="xmp3">.overlay {background-color: #1b768b; opacity: 0.5;}</xmp>
 
-      <!---------- IKONER SEKTION ------------------->
+        </section>
+
+        <!---------- IKONER SEKTION ------------------->
 
         <h2 class="headline" id="ikoner">Ikoner</h2>
-    
-        
+
+
         <section class="sektionikoner">
-     <!---------- INFOKNAP ------------------->
+            <!---------- INFOKNAP ------------------->
 
-        <div class="ikoner">
-         <div class="btn">Mere Info</div>
-        </div>
-          
-     <!---------- TOGGLEMENU ------------------->
-         <div class="toggle-comtainer">
-          
-        <div class="ikoner"></div> 
-         <div class="btn-toggle-nav" onclick="toggleNav()"></div>
-          
-            </div>
-     <!---------- BACK TO TOP ------------------->
-          
-          <div class="ikoner">
-       
-<img class="back-to-top" src="img/backtotop-icon.svg">
+            <div class="ikoner">
+                <div class="btn">Mere Info</div>
             </div>
 
-<code class="xmp3-ikoner">
-    
-    &lt;div class="btn">Mere Info &lt;/div>
-    <br><br>
-    .btn {<br>
-    clear: both;<br>
-    height: 30px;<br>
-    width: 110px;<br>
-    background-color: #B86427;<br>
-    color: white;<br>
-    font-size: 22px;<br>
-    border-radius: 8px;<br>
-    } </code>
-              
-<code class="xmp3-ikoner">
-    
-    https://use.fontawesome.com/releases/v5.8.2/css/all.css
-    
-    &lt;div class="btn-toggle-nav" onclick="toggleNav()&lt;/div>
-    <br><br>
-    .btn-toggle-nav {<br>
-    margin: 10px;<br>
-    padding: 25px;<br>
-    background-image: url("img/menu.svg");<br>
-    background-repeat: no-repeat;<br>
-    background-size: 60%;<br>
-    background-position: center;<br>
-    cursor: pointer;<br>
-    z-index: 2000;<br>
-}<br><br>
+            <!---------- TOGGLEMENU ------------------->
+            <div class="toggle-comtainer">
 
-.btn-toggle-nav:hover {<br>
-    border: 6px;<br>
-    border-radius: 26px;<br>
-    padding: 26px;<br>
-}<br><br>
-    
-    &lt;script src="../JS/main.js">&lt;/script>
+                <div class="ikoner"></div>
+                <div class="btn-toggle-nav" onclick="toggleNav()"></div>
 
-          
-</code>
-    
-<code class="xmp3-ikoner">
-    
-    .btn {
-    clear: both;
-    height: 30px;
-    width: 110px;
-    background-color: #B86427;
-    color: white;
-    font-size: 22px;
-    border-radius: 8px;<br>
-    } 
-            <br><br>
-    
-    &lt;script src="../JS/main.js">&lt;/script>
-</code>
-            
-            
-          
-          <div class="ikoner">
-                <img class="badge" src="img/badge1.svg">       
-           </div>
-          
-          
-          <div class="ikoner">
-                <img class="logo" src="img/logo.svg">       
-        </div>
-          
-          
-          <div class="ikoner">
-                <img class="arrow" src="img/arrow-down.png">       
-        </div>
-          
-           
+            </div>
+            <!---------- BACK TO TOP ------------------->
+
+            <div class="ikoner">
+
+                <img class="back-to-top" src="img/backtotop-icon.svg">
+            </div>
+
             <code class="xmp3-ikoner">
-    
-    .btn {<br>
-    clear: both;<br>
-    height: 30px;<br>
-    width: 110px;<br>
-    background-color: #B86427;<br>
-    color: white;<br>
-    font-size: 22px;<br>
-    border-radius: 8px;<br>
-    } </code>
-              
-<code class="xmp3-ikoner">
-    
-    &lt;div class="overlayall overlay-img"><br>
-    &lt;img src="img/badge.png" alt="badge" height="266" width="903">&lt;/div>
-    <br><br>
-    .overlayall{<br>
-    width: 100%;<br>
-	margin-bottom: -100px;<br>
-    justify-content: center;<br>
-    position: absolute;<br>
-    top: 0; right:  0; left: 0;<br>
-    display: flex;<br>
-    color: white;<br>
-}<br><br>
 
-          
-</code>
-    
-<code class="xmp3-ikoner">
-        &lt;div class="arrow"&lt;/div>
-<br><br>
-    
-    .arrow {<br>
-    height: 35px;<br>
-    width: 40px;<br>
-    } </code>
-      </section>
+                &lt;div class="btn">Mere Info &lt;/div>
+                <br><br>
+                .btn {<br>
+                clear: both;<br>
+                height: 30px;<br>
+                width: 110px;<br>
+                background-color: #B86427;<br>
+                color: white;<br>
+                font-size: 22px;<br>
+                border-radius: 8px;<br>
+                } </code>
 
-      <!-------- TYPOGRAFI SEKTION ------------------->
+            <code class="xmp3-ikoner">
+
+                https://use.fontawesome.com/releases/v5.8.2/css/all.css
+
+                &lt;div class="btn-toggle-nav" onclick="toggleNav()&lt;/div>
+                <br><br>
+                .btn-toggle-nav {<br>
+                margin: 10px;<br>
+                padding: 25px;<br>
+                background-image: url("img/menu.svg");<br>
+                background-repeat: no-repeat;<br>
+                background-size: 60%;<br>
+                background-position: center;<br>
+                cursor: pointer;<br>
+                z-index: 2000;<br>
+                }<br><br>
+
+                .btn-toggle-nav:hover {<br>
+                border: 6px;<br>
+                border-radius: 26px;<br>
+                padding: 26px;<br>
+                }<br><br>
+
+                &lt;script src="../JS/main.js">&lt;/script>
+
+
+            </code>
+
+            <code class="xmp3-ikoner">
+
+                .btn {
+                clear: both;
+                height: 30px;
+                width: 110px;
+                background-color: #B86427;
+                color: white;
+                font-size: 22px;
+                border-radius: 8px;<br>
+                }
+                <br><br>
+
+                &lt;script src="../JS/main.js">&lt;/script>
+            </code>
+
+
+
+            <div class="ikoner">
+                <img class="badge" src="img/badge1.svg">
+            </div>
+
+
+            <div class="ikoner">
+                <img class="logo" src="img/logo.svg">
+            </div>
+
+
+            <div class="ikoner">
+                <img class="arrow" src="img/arrow-down.png">
+            </div>
+
+
+            <code class="xmp3-ikoner">
+
+                .btn {<br>
+                clear: both;<br>
+                height: 30px;<br>
+                width: 110px;<br>
+                background-color: #B86427;<br>
+                color: white;<br>
+                font-size: 22px;<br>
+                border-radius: 8px;<br>
+                } </code>
+
+            <code class="xmp3-ikoner">
+
+                &lt;div class="overlayall overlay-img"><br>
+                &lt;img src="img/badge.png" alt="badge" height="266" width="903">&lt;/div>
+                <br><br>
+                .overlayall{<br>
+                width: 100%;<br>
+                margin-bottom: -100px;<br>
+                justify-content: center;<br>
+                position: absolute;<br>
+                top: 0; right: 0; left: 0;<br>
+                display: flex;<br>
+                color: white;<br>
+                }<br><br>
+
+
+            </code>
+
+            <code class="xmp3-ikoner">
+                &lt;div class="arrow"&lt;/div>
+                <br><br>
+
+                .arrow {<br>
+                height: 35px;<br>
+                width: 40px;<br>
+                } </code>
+        </section>
+
+        <!-------- TYPOGRAFI SEKTION ------------------->
 
         <h2 class="headline" id="typografi">Typografi</h2>
 
-      <section class="typografi" id="typografi">
-          
-          
-          
-          
-       <div class="typografi-headline">
-          <p>Overskrift</p>
-          </div>
-          
-            <xmp class="xmp3">&lt;p class="h2-grid">Et eksempel på en historie ved samtalebænken&lt;/p>
-          <br><br>
-          
-    .h2-grid {<br>
-    font-family: 'proxima-nova', sans-serif;<br>
-    font-weight: 700;<br>
-    font-size: 30px;<br>
-    padding-top: 0px;<br>
-    }
-          </xmp>        
-
-    
-          
-          
-       <div class="typografi-headline">
-          <p>Overskrift</p>
-          </div>
-          
-            <xmp class="xmp3">&lt;p class="h2-grid">Et eksempel på en historie ved samtalebænken&lt;/p>
-          <br><br>
-          
-    .h2-grid {<br>
-    font-family: 'proxima-nova', sans-serif;<br>
-    font-weight: 700;<br>
-    font-size: 30px;<br>
-    padding-top: 0px;<br>
-    }
-          </xmp>        
+        <section class="typografi" id="typografi">
 
 
-          
-       <div class="typografi-headline">
-          <p>Overskrift</p>
-          </div>
-          
-            <xmp class="xmp3">&lt;p class="h2-grid">Et eksempel på en historie ved samtalebænken&lt;/p>
-          <br><br>
-          
-    .h2-grid {<br>
-    font-family: 'proxima-nova', sans-serif;<br>
-    font-weight: 700;<br>
-    font-size: 30px;<br>
-    padding-top: 0px;<br>
-    }
-          </xmp>        
 
-      </section>
+            <div class="typografi-headline">
+                <p>Rubrik</p>
+            </div>
+
+                 <code id="xmp3-typo" class="xmp3">
+                .h2-grid {<br>
+                font-family: 'proxima-nova', sans-serif;<br>
+                font-weight: 700;<br>
+                font-size: 30px;<br>
+                padding-top: 0px;<br>
+                }
+            </code>
+        </section>
+
+
+        <section  class="typografi">
+
+            <div id="tp-underrubrik" class="typografi-headline">
+                <p>Underrubrik<br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. Donec augue. <br><br></p>
+            </div>
+            
+            <code id="xmp3-typo" class="xmp3">
+                .h3-grid-italic {<br>
+                font-family: 'proxima-nova', sans-serif;<br>
+                font-weight: 700;<br>
+                font-size: 30px;<br>
+                padding-top: 0px;<br>
+                }
+            </code>
+        </section>
+
+
+        <section class="typografi">
+
+
+            <div id="tp-bodytxt" class="typografi-headline">
+                <p>Brødtekst<br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. Donec augue. </p>
+            </div>
+
+            <code id="xmp3-typo" class="xmp3">
+                .h2-grid {<br>
+                font-family: 'proxima-nova', sans-serif;<br>
+                font-weight: 700;<br>
+                font-size: 30px;<br>
+                padding-top: 0px;<br>
+                }
+            </code>
+
+
+        </section>
+        
+    </main>
